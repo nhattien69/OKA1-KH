@@ -4,9 +4,9 @@ const config = require('./config');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const eventRoutes = require('./routes/eventRoutes');
-// const http = require('http');
+const http = require('http');
 
-
+http.get('http://api/users')
 const app = express();
 // const server = http.createServer(app);
 
