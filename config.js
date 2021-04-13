@@ -16,7 +16,7 @@ module.exports = {
     host: HOST,
     url: HOST_URL,
     sql: {
-        server: SQL_SERVER,
+        server: "localhost",
         database: SQL_DATABASE,
         user: SQL_USER,
         password: SQL_PASSWORD,

@@ -5,7 +5,10 @@ const eventData = require('../data/events');
 const getUsers = async (req, res, next) => {
     try{
         const events = await eventData.getUsers();
-        res.send(events);
+        res.send({
+            user: events
+        });
+        
     }catch (error) {
         res.status(400).send(error.message);
     }
@@ -78,6 +81,7 @@ const updateProfile = async (req, res, next) => {
         const data = req.body;
         const updated = await eventData.updateProfile(userId,data);
         res.send(updated);
+        
     }catch (error) {
         res.status(400).send(error.message);
     }

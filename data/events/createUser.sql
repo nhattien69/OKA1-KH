@@ -1,4 +1,4 @@
-insert into [Account]
+insert into [dbo].[Account]
 (
     [username],
     [pass]
