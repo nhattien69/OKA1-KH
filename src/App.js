@@ -1,0 +1,431 @@
+import logo from './logo.svg';
+import './App.css';
+
+import { Tabs } from 'antd';
+
+const { TabPane } = Tabs;
+
+function callback(key) {
+  console.log(key);
+}
+
+function App() {
+  return (
+    <div className="App">
+      <div className="container_app">
+      <section className="wrap-pay">
+        <div className="content-pay">
+          <div className="pay">
+            <h2 className="Title-Pay">Đối tác thanh toán</h2>
+            <h3 className="Pay-Info">Những đối tác thanh toán đáng tin cậy của chúng tôi sẽ giúp cho bạn luôn an tâm thực hiện mọi giao dịch một cách thuận lợi nhất!</h3>
+          </div>
+
+        </div> 
+
+        <div className="wrap-list-pay">
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img width="50px" heigth="50px" className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214095745-950140744e8aaa6adc5f20c9070ec099.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img width="50px" heigth="50px" className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214118270-af8e9adc7a6c728d0df9c6590279dd48.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214099540-8d8fe069f3c5f30b42c6067bb66bf7b5.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214169837-2e167f93c28a31c50929ff25141af9c7.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214177572-608f357f64d150269e946dd01dc35f6c.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214182554-3d9057e89f3e8013c6b5623a0b3fd72d.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2021/04/07/1617778862778-43a622292ba164040d7264969df8725d.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214295854-530deeeeef4c927cf42574a9c4f18f26.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214297342-0f18b61b9af8466c550a64863c2f7fc9.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214299520-8bfa969c933323094f1f75162ae3fc0f.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+
+            <div className="img-pay">
+              <a target="_pay" retl ="noopener norefferrer" title>
+                  <img className="_img-pay" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568214302804-b2cfe4878f3d09ee6b42932a00fac1be.png?tr=q-75,w-82" alt></img>
+              </a>
+            </div>
+        </div>
+      </section>
+      <hr width="80%"></hr>
+      <section className="wrap-air">
+          <div className="content-air">
+             <div className="air">
+                <h2 className="Title-Air">Đối tác hàng không</h2>
+                <h3 className="Air-Info">Đối tác hàng không nội địa và quốc tế</h3>
+              </div>
+
+              <span className="air">
+                <div className="air">Những đối tác hàng không toàn cầu sẽ <br></br>chắp cánh đưa bạn đến mọi địa điểm trên thế giới.</div>
+              </span>
+          </div>
+
+          <div className="wrap-list-air">
+            <div className="img-air">
+              <a target="_air" rel="noopener noreferrer" titlte="ve may bay vietjet air" href="https://www.traveloka.com/vi-vn/flight/airline/vietjet-air">
+                  <img className="_img-air" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568212919133-2482812716f8f0532738cb4518387a0d.png?tr=q-75,w-82" alt="ve may bay vietjet air"></img>
+              </a>
+            </div>
+          
+            <div className="img-air">
+              <a target="_air" rel="noopener noreferrer" titlte="ve may bay bamboo airways" href="https://www.traveloka.com/vi-vn/flight/airline/bamboo-airways">
+                  <img className="_img-air" src="https://ik.imagekit.io/tvlk/image/imageResource/2020/02/21/1582260108949-09348d284bb3fd1675614f43ab22a6d8.png?tr=q-75,w-82" alt="ve may bay bamboo airways"></img>
+              </a>
+            </div>
+
+          
+            <div className="img-air">
+              <a target="_air" rel="noopener noreferrer" titlte="ve may bay vietnam airlines" href="https://www.traveloka.com/vi-vn/flight/airline/vietnam-airlines">
+                  <img height="30px" className="_img-air" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568213402893-2a4ed3c760d1f8c92fd95efa17a60377.png?tr=q-75,w-82" alt="ve may bay vietnam airlines"></img>
+              </a>
+            </div>
+
+          
+            <div className="img-air">
+              <a target="_air" rel="noopener noreferrer" titlte="ve may bay pacific airlines" href="https://www.traveloka.com/vi-vn/flight/airline/pacific-airlines">
+                  <img className="_img-air" src="https://ik.imagekit.io/tvlk/image/imageResource/2020/09/29/1601371217702-a33be2e4dcf4e85af9a3739912cc17d5.png?tr=q-75,w-82" alt="ve may bay pacific airlines"></img>
+              </a>
+            </div>
+
+          
+            <div className="img-air">
+              <a target="_air" rel="noopener noreferrer" titlte="ve may bay thai lion" href="https://www.traveloka.com/vi-vn/flight/airline/thai-lion">
+                  <img className="_img-air" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568213286490-40a57162d59a3cdfd871be63262c1153.png?tr=q-75,w-82" alt="ve may bay thai lion"></img>
+              </a>
+            </div>
+
+          
+            <div className="img-air">
+              <a target="_air" rel="noopener noreferrer" titlte="ve may bay nok air" href="https://www.traveloka.com/vi-vn/flight/airline/nok-air">
+                  <img width="50px" height="50px"className="_img-air" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568213291182-fd05076a8f71ea7f97ce37b307741c11.png?tr=q-75,w-82" alt="ve may bay nok air"></img>
+              </a>
+            </div>
+          
+          
+            <div className="img-air">
+              <a target="_air" rel="noopener noreferrer" titlte="ve may bay scoot" href="https://www.traveloka.com/vi-vn/flight/airline/scoot">
+                  <img width="50px" height="50px"className="_img-air" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568213296422-f6b5db2bbfea2e7ee39bd7b2a7bb612f.png?tr=q-75,w-82" alt="ve may bay nok scoot"></img>
+              </a>
+            </div>
+
+          
+            <div className="img-air">
+              <a target="_air" rel="noopener noreferrer" titlte="ve may bay singapore airlines" href="https://www.traveloka.com/vi-vn/flight/airline/singapore-airlines">
+                  <img width="50px" height="50px" className="_img-air" src="https://ik.imagekit.io/tvlk/image/imageResource/2019/09/11/1568213462655-77c3422f91cface84d1833b02dda2ebd.png?tr=q-75,w-82" alt="ve may bay singapore airlines"></img>
+              </a>
+            </div>
+            </div>
+        </section>
+        <hr width="80%"></hr>
+
+      <section className="wrap-bank">
+          <div className="content-bank">
+            <div className="bank">
+              <h2 className="Title-Bank">Đối tác khách sạn</h2>
+              <h3 className="Bank-Info">Đối tác khách sạn trong nước và quốc tế</h3>
+            </div>
+            <span className="bank">
+              <div>Chúng tôi hợp tác với các chuỗi khách <br></br>sạn trên toàn thế giới để bảo đảm mang <br></br>lại kỳ nghỉ tuyệt vời nhất tại mọi điểm đến trong mơ của bạn!</div>
+            </span>
+
+          </div>
+
+          <div className="wrap-list-bank">
+          
+          <div className="img-bank">
+              <a target="_bank" rel="noopeper noreferrer" title ="Accor">
+                  <img className="_img-bank" src="https://ik.imagekit.io/tvlk/image/imageResource/2017/08/08/1502200780482-30c1b0ea86019fe73c4d14683e409293.png?tr=q-75,w-82" alt="Accor"></img>
+              </a>
+            </div>
+          <div className="img-bank">
+            <a target="_bank" rel="noopeper noreferrer" title ="Asian Ruby Hotel">
+                <img className="_img-bank" src="https://ik.imagekit.io/tvlk/image/imageResource/2018/01/29/1517200921330-784c7f0f6798fdb7c3b14d23881d5090.jpeg?tr=q-75,w-82" alt="Asian Ruby Hotel"></img>
+            </a>
+          </div>
+
+          <div className="img-bank">
+            <a target="_bank" rel="noopeper noreferrer" title ="Church Boutique Hotel">
+                <img className="_img-bank" src="https://ik.imagekit.io/tvlk/image/imageResource/2018/01/29/1517200871912-592258729faec3c08e23d4f7c8c0da07.png?tr=q-75,w-82" alt="Church Boutique Hotel"></img>
+            </a>
+          </div>
+
+          <div className="img-bank">
+            <a target="_bank" rel="noopeper noreferrer" title ="Elegance Hospitally Group">
+                <img className="_img-bank" src="https://ik.imagekit.io/tvlk/image/imageResource/2018/01/29/1517201226378-8affc1dfeeafe879121fc94652a7332f.png?tr=q-75,w-82" alt="Elegance Hospitaltily Group"></img>
+            </a>
+          </div>
+
+          <div className="img-bank">
+            <a target="_bank" rel="noopeper noreferrer" title ="FLC" href="https://www.traveloka.com/vi-vn/hotel/flc-hotels-and-resorts">
+                <img className="_img-bank" src="https://ik.imagekit.io/tvlk/image/imageResource/2017/08/08/1502200796134-3e687ae7c1e145253ef72691f5f18318.png?tr=q-75,w-82" alt="FLC"></img>
+            </a>
+          </div>
+
+         
+          <div className="img-bank">
+            <a target="_bank" rel="noopeper noreferrer" title ="Fusion Group">
+                <img width="50px" height="50px"className="_img-bank" src="https://ik.imagekit.io/tvlk/image/imageResource/2018/01/29/1517201184025-b629781230030dbfc28bcbfb127286f6.png?tr=q-75,w-82" alt="Fusion Group"></img>
+            </a>
+          </div>
+
+          <div className="img-bank">
+            <a target="_bank" rel="noopeper noreferrer" title ="Marriott">
+                <img className="_img-bank" src="https://ik.imagekit.io/tvlk/image/imageResource/2017/08/08/1502200776552-f852b752ae88e7e0902fb0d3bfc41a00.png?tr=q-75,w-82" alt="Marriott"></img>
+            </a>
+          </div>
+
+          <div className="img-bank">
+            <a target="_bank" rel="noopeper noreferrer" title ="Minor Hotels">
+                <img className="_img-bank" src="https://ik.imagekit.io/tvlk/image/imageResource/2018/01/29/1517201056739-4030efe3d4ea793a40904f712cec37af.png?tr=q-75,w-82" alt="Minor Hotels"></img>
+            </a>
+          </div>
+          </div>
+        </section>
+        
+        
+        <hr width="80%"></hr>
+        <div className="wrap_content">
+         
+          <h2 className="Titile">
+            <span>Tại sao nên đặt chỗ với Oka?</span>
+          </h2>
+
+          <div className="wrap_img_content">
+              <div className="img">
+                  <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/05/10/1494407528373-a0e2c450b5cfac244d687d6fa8f5dd98.png?tr=q-75"></img>
+              </div>
+              <div className="content-question">
+                  <h3 className="content">Giá rẻ mỗi ngày với ưu đãi đặc biệt dành riêng cho ứng dụng</h3>
+                  <span className="content-detail">Đặt phòng qua ứng dụng để nhận giá tốt nhất với các khuyến mãi tuyệt vời</span>
+              </div>
+          
+          </div>
+
+          <div className="wrap_img_content">
+              <div className="content-question">
+                  <h3 className= "content">Phương thức thanh toán an toàn và linh hoạt</h3>
+                  <span className="content-detail">Giao dịch trực tuyến an toàn với nhiều lựa chọn như thanh toán tại cửa hàng tiện lợi, <br></br> chuyển khoản ngân hàng, thẻ tín dụng đến Internet Banking. Không tính phí giao dịch.</span>
+
+              </div>
+              <div className="img img_payment">
+                  <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/05/10/1494407536280-ddcb70cab4907fa78468540ba722d25b.png?tr=q-75"></img>
+                </div>
+          </div>
+
+          <div className="wrap_img_content">
+            <div className="img">
+              <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/05/10/1494407541562-61b4438f5439c253d872e70dd7633791.png?tr=q-75"></img>
+            </div>
+
+            <div className="content-question">
+              <h3 className="content">Hỗ trợ khách hàng 24/7</h3>
+              <span className="content-detail">Đội ngũ nhân viên hỗ trợ khách hàng luôn sẵn sàng giúp đỡ bạn trong từng bước của quá trình đặt vé</span>
+            </div>
+          </div>
+
+          <div className="wrap_img_content">
+            <div className="content-question">
+              <h3 className="content">Khách thực, đánh giá thực</h3>
+              <span className="content-detail">Hơn 10.000.000 đánh giá, bình chọn đã được xác thực từ du khách sẽ giúp bạn đưa ra lựa chọn đúng đắn.</span>
+            </div>
+
+            <div className="img">
+              <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/05/10/1494407562736-ea624be44aec195feffac615d37ab492.png?tr=q-75"></img>
+            </div>
+
+          </div>
+
+        </div>
+        <header className="App-header">
+
+          <div className ="Page" id="homepageSEOTab">
+            <h2 className="Title">Bạn muốn khám phá điều gì?</h2>
+            
+            
+              <Tabs defaultActiveKey="1" onChange={callback}>
+                  <TabPane tab="Các chặng bay và hãng bay hàng đầu" key="1" className="wrap_item_linl_anchor">
+                    <li>
+                      <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Da-Nang.DAD"> Vé máy bay đi Đà Nẵng</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Phu-Quoc.PQC"> Vé máy bay đi Phú Quốc</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Nha-Trang.CXR"> Vé máy bay đi Nha Trang</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Hanoi.HAN"> Vé máy bay đi Hà Nội</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Da-Lat.DLI"> Vé máy bay đi Đà Lạt</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Hai-Phong.HPH"> Vé máy bay đi Hải Phòng</a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Ho-Chi-Minh-City-Hanoi.SGN.HAN	"> Vé máy bay Sài Gòn - Hà Nội</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Ho-Chi-Minh-City-Da-Nang.SGN.DAD	"> Vé máy bay Sài Gòn - Đà Nẵng</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Ho-Chi-Minh-City-Phu-Quoc.SGN.PQC	"> Vé máy bay Sài Gòn - Phú Quốc</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Ho-Chi-Minh-City-Nha-Trang.SGN.CXR	"> Vé máy bay Sài Gòn - Nha Trang</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Ho-Chi-Minh-City-Da-Lat.SGN.DLI	"> Vé máy bay Sài Gòn - Đà Lạt</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Singapore.SIN"> Vé máy bay đi Singapore</a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Hanoi-Ho-Chi-Minh-City.HAN.SGN	"> Vé máy bay Hà Nội - Sài Gòn</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Hanoi-Phu-Quoc.HAN.PQC	"> Vé máy bay Hà Nội - Phú Quốc</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Hanoi-Da-Nang.HAN.DAD	"> Vé máy bay Hà Nội - Đà Nẵng</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Hanoi-Nha-Trang.HAN.CXR	"> Vé máy bay Hà Nội - Nha Trang</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Hanoi-Da-Lat.HAN.DLI	"> Vé máy bay Hà Nội - Đà Lạt</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Ho-Chi-Minh-City.SGN"> Vé máy bay đi Sài Gòn</a>
+
+                      </div>
+                    </li>
+
+                    <li>
+                      <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Da-Nang-Hanoi.DAD.HAN	"> Vé máy bay Đà Nẵng - Hà Nội</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Da-Nang-Ho-Chi-Minh-City.DAD.SGN	"> Vé máy bay Đà Nẵng - Sài Gòn</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Ho-Chi-Minh-City-Bangkok.SGN.BKK	"> Vé máy bay Hồ Chí Minh - Bangkok</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Ho-Chi-Minh-City-Singapore.SGN.SIN	"> Vé máy bay Hồ Chí Minh - Singapore</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/route/Hanoi-Bangkok.HAN.BKK	"> Vé máy bay Hà Nội - Bangkok</a>
+                          <a href="https://www.traveloka.com/vi-vn/flight/to/Bangkok.BKK"> Vé máy bay đi Bangkok</a>
+
+                      </div>
+                    </li>
+                  </TabPane>
+                  <TabPane tab="Các khách sạn hàng đầu" key="2" className="wrap_item_linl_anchor">
+                    <li>
+                      <div className="wrapperAnchorLink">
+                          <a>Khách sạn Vũng Tàu</a>
+                          <a>Khách sạn Đà Lạt</a>
+                          <a>Khách sạn Đà Nẵng</a>
+                          <a href="https://www.traveloka.com/vi-vn/hotel/vietnam/region/ho-chi-minh-city-10009794">Khách sạn Hồ Chí Minh</a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div className="wrapperAnchorLink">
+                          <a>Khách sạn Nha Trang</a>
+                          <a href="https://www.traveloka.com/vi-vn/hotel/vietnam/city/hoi-an-ancient-town-10010308">Khách sạn Hội An</a>
+                          <a href="https://www.traveloka.com/vi-vn/hotel/vietnam/city/sa-pa-10009950">Khách sạn Sa Pa</a>
+                          <a>Khách sạn Hà Nội</a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div className="wrapperAnchorLink">
+                          <a>Khách sạn Phan Thiết</a>
+                          <a>Khách sạn Phú Quốc</a>
+                          <a>Khách sạn Quy Nhơn</a>
+                          <a href="https://www.traveloka.com/vi-vn/public-holidays/ve-may-bay-tet">Vé máy bay Tết</a>
+
+                        </div>
+                    </li>
+                  </TabPane>
+                  <TabPane tab="Combo Vé máy bay và Khách sạn" key="3" className="wrap_item_linl_anchor">
+                      <li>
+                        <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/packages/vietnam/region/ho-chi-minh-city-10009794">Combo du lịch TP Hồ Chí Minh</a>
+                          <a href="https://www.traveloka.com/vi-vn/packages/vietnam/region/ha-noi-city-10009843">Combo du lịch Hà Nội</a>
+          
+                        </div>
+                      
+                      </li>
+                      <li>
+                        <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/packages/vietnam/region/da-nang-city-10010083">Combo du lịch Đà Nẵng</a>
+                          <a href="https://www.traveloka.com/vi-vn/packages/singapore">Combo du lịch Singapore</a>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/packages/vietnam/city/nha-trang-city-10010498">Combo du lịch Nha Trang</a>
+                          <a href="https://www.traveloka.com/vi-vn/packages/vietnam/city/phu-quoc-10011570">Combo du lịch Phú Quốc</a>
+                        </div>
+                      </li>
+                  </TabPane>
+                  <TabPane tab="Hoạt động Tham quan và Giải trí" key="4" className="wrap_item_linl_anchor">
+                      <li>
+                        <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/activities/vietnam/region/ho-chi-minh-city-10009794">Hoạt động Tham quan & Giải trí tại TP. HCM</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/vietnam/city/hoi-an-ancient-town-10010308">Hoạt động Tham quan & Giải trí tại Hội An</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/vietnam/region/da-nang-10010083">Hoạt động Tham quan & Giải trí tại Đà Nẵng</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/vietnam/city/nha-trang-city-10010498">Hoạt động Tham quan & Giải trí tại Nha Trang</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/vietnam/city/da-lat-city-10010169">Hoạt động Tham quan & Giải trí tại Đà Lạt</a>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/activities/vietnam/region/hanoi-10009843">Hoạt động Tham quan &amp; Giải trí tại Hà Nội</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/vietnam/city/phu-quoc-district-10011570">Hoạt động Tham quan &amp; Giải trí tại Phú Quốc</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/search?st=GEO&amp;eid=10009950">Hoạt động Tham quan &amp; Giải trí tại Sa Pa</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/search?st=GEO&amp;eid=10009852">Hoạt động Tham quan &amp; Giải trí tại Hà Giang</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/search?st=GEO&amp;eid=10009897">Hoạt động Tham quan &amp; Giải trí tại Ninh Bình</a>
+                        </div>
+                          
+                      </li>
+
+                      <li>
+                        <div className="wrapperAnchorLink">
+                          <a href="https://www.traveloka.com/vi-vn/activities/singapore/region/singapore-107493">Hoạt động Tham quan &amp; Giải trí tại Singapore</a> 
+                          <a href="https://www.traveloka.com/vi-vn/activities/thailand/country/thailand-10000007">Hoạt động Tham quan &amp; Giải trí tại Thái Lan</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/malaysia/country/malaysia-108416">Hoạt động Tham quan &amp; Giải trí tại Malaysia</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/south-korea/country/south-korea-20004311">Hoạt động Tham quan &amp; Giải trí tại Hàn Quốc</a>
+                          <a href="https://www.traveloka.com/vi-vn/activities/japan/country/japan-20001756">Hoạt động Tham quan &amp; Giải trí tại Nhật Bản</a>          
+                        </div>
+                      </li>
+                  </TabPane>
+              </Tabs>
+
+            
+          </div>
+          
+        </header>
+      </div>
+    </div>
+  );
+}
+
+export default App;
