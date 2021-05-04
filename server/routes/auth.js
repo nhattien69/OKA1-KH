@@ -13,19 +13,16 @@ routers.get('/user', async(req,res)=>{
     }
 });
 
-routers.post('/register',async(req,res)=>{
+routers.post('/user/register',async(req,res)=>{
     const {error} = registerValidation(req.body);
     if(error) return res.status(400).send(error.details[0].message);
 
     const userExist = await User.findOne({username: req.body.username});
     if(userExist) return res.status(400).send('User already exist');
 
-    const salt = await bcryptjs.genSalt(10);
-    const hashedPass = await bcryptjs.hash(req.body.password,salt);
-
     const user = new User({
         username: req.body.username,
-        password: hashedPass
+        password: req.body.password
     });
     try{
         const saveUser = await user.save();
@@ -35,13 +32,13 @@ routers.post('/register',async(req,res)=>{
     }
 });
 
-routers.post('/login',async(req,res)=>{
+routers.post('/user/login',async(req,res)=>{
     const {error} = loginValidation(req.body);
     if(error) return res.status(400).send(error.details[0].message);
     const user = await User.findOne({username: req.body.username});
     if(!user) return res.status(400).send('User not found ');
-    const validPass = await bcryptjs.compare(req.body.password,user.password);
-    if(!validPass) return res.status(400).send('Invalid password')
+    const validPass = await User.findOne({password: req.body.password});
+    if(!validPass) return res.status(400).send('Invalid password');
     res.send('Logged in');
 });
 
