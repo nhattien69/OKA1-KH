@@ -1,0 +1,10 @@
+version: "3.7"
+services: 
+    user-db:
+        image: mcr.microsoft.com/mssql/server:2017-latest
+        container_name: profile_userDB
+        ports:
+            - "1445:1433"
+        environment: 
+            SA_PASSWORD: "!abc1234"
+            ACCEPT_EULA: "Y"
