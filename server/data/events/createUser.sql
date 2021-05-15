@@ -1,10 +1,10 @@
-insert into [dbo].[Account]
+insert into [dbo].[Users]
 (
-    [username],
+    [email],
     [pass]
 )
 values (
-    @username,
+    @email,
     @pass
 )
 SELECT SCOPE_IDENTITY() as userId

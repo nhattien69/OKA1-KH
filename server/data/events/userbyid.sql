@@ -1,6 +1,12 @@
 SELECT 
-        [userId],
-        [username],
-        [pass]
-FROM [dbo].[Account]
-where [username] like @username 
+
+    [userId],
+    email,
+    pass,
+    fristName,
+    lastName,
+    userAddress,
+    cards
+
+from [dbo].[Users]
+where userId=@userId

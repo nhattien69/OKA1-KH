@@ -1,9 +1,13 @@
-update [dbo].[Account]
-set [username]=@username,
-    [pass]=@pass
+update [dbo].[Users]
+set [email]=@email,
+    [pass]=@pass,
+    [fristName]=@fristName,
+    [lastName]=@lastName,
+    [userAddress]=@userAddress,
+    [cards]=@cards
 where [userId]=@userId
 
 
-SELECT [username],[pass]
-from [dbo].[Account]
+SELECT [email],[pass],[fristName],lastName,userAddress,cards
+from [dbo].[Users]
 where [userId]=@userId

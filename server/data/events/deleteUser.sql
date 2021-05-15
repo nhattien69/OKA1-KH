@@ -1,2 +1,2 @@
-Delete [dbo].[Account]
+Delete [dbo].[Users]
 where [userId]=@userId

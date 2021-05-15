@@ -5,9 +5,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const app = express();
 const eventRoutes = require('./routes/eventRoutes');
-const authRoutes = require('./routes/auth');
-const loginAdmin = require('./routes/loginAdmin');
 const mongoose = require('mongoose');
+const jwt = require('jsonwebtoken');
 const { required } = require('@hapi/joi');
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
@@ -25,8 +24,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.use('/api', eventRoutes.routes);
-app.use('/api',authRoutes.routes);
-app.use('/api',loginAdmin.routes);
 
 
-app.listen(process.env.PORT || config.port, () => console.log('is on http://localhost:' + config.port));
+
+
+const sql = require('mssql');
+app.listen(3001, () => console.log('is on http://localhost:' + config.port));

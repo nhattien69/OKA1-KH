@@ -4,16 +4,42 @@ const express = require('express');
 const eventController = require('../controllers/eventController');
 const router = express.Router()
 const {getUsers,getOneUser,addUser, updateUser,deleteUser,
-        getProfiles,getOneProfile,updateProfile} = eventController;
+        authUser,authAdmin,authPartner} = eventController;
+const jwt = require('jsonwebtoken');
 
-router.get('/users' , getUsers);
-router.get('/user/name_use=:id',getOneUser);
+
+router.post('/user/login',authUser);
+router.post('/admin/login',authAdmin);
+router.post('/partner/login',authPartner);
+router.get('/user/:id',getOneUser);
 router.post('/users',addUser);
-router.put('/users/num_id=:id',updateUser);
-router.delete('/users/num_id=:id',deleteUser);
-router.get('/profiles',getProfiles);
-router.get('/profiles/name_pro=:ten',getOneProfile);
-router.put('/profiles/num_id=:id',updateProfile);
+router.patch('/user/:id',updateUser);
+router.delete('/user/:id',deleteUser);
+
+
+router.get('/profiles' ,verifyToken, (req,res) => {
+    jwt.verify(req.token, 'secretkey', (err,profile) => {
+        if(err) {
+            res.status(401).send("Invalid token")
+        } else {
+            res.json({
+                profile
+            }); 
+        }
+    })
+})
+
+function verifyToken(req,res,next){
+    const bearerHeader = req.headers['authorization']
+    if (typeof bearerHeader !== 'undefined') {
+        const bearerToken = bearerHeader.split(' ')[1]
+        req.token = bearerToken
+        next()
+    }else {
+        res.send(401)
+    }
+}
+
 
 module.exports = {
     routes: router,

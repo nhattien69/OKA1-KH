@@ -1,7 +1,8 @@
 const mongoose = require ('mongoose');
 
 const userSchema = new mongoose.Schema({
-    username: {
+    _id: mongoose.Schema.Types.ObjectId,
+    email: {
         type: String,
         required: true,
         max: 255
