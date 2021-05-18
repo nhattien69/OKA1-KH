@@ -1,3 +1,3 @@
-select u.userId,u.email,u.pass,u.fristName,u.lastName,u.phone,u.userAddress,u.cards
-  from [dbo].[Users] as u
-  where u.email = @email and u.pass = @pass
+select u.userId,u.email,u.pass,u.fristName,u.lastName,u.phone,u.userAddress,u.cards,p.value_TotalPoint
+  from [dbo].[Users] as u,[dbo].[User_Point] as p
+  where u.email = @email and u.pass = @pass and u.userId = p.userId

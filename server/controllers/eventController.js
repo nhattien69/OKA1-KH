@@ -5,6 +5,17 @@ const eventData = require('../data/events');
 const { loginValidation } = require('../validate');
 const jwt = require('jsonwebtoken')
 
+function verifyJwtToken(token, secretKey){
+    return new Promise((resolve, reject) => {
+        jwt.verify(token, secretKey, (err, decoded) => {
+        if (err) {
+            return reject(err);
+        }
+        resolve(decoded);
+        });
+    });
+} 
+
 const authUser = async (req, res, next) => {
     try{
         const data = req.body;
@@ -12,11 +23,15 @@ const authUser = async (req, res, next) => {
         if (auth != 0)
         {
             const token = jwt.sign({auth}, "secretkey", {
-                expiresIn: 259200
-              });                   
+                expiresIn: 900
+            });
+            const refreshToken = jwt.sign({auth}, "refreshsecretkey", {
+                expiresIn: 864000
+              });                        
               const response = {
                 data,
-                token
+                token,
+                refreshToken
               }
               res.json(response);
         }
@@ -59,11 +74,15 @@ const authPartner = async (req, res, next) => {
         if (rolePartner != 0)
         {
             const token = jwt.sign({user,rolePartner}, "secretkey", {
-                expiresIn: 259200
-              });
+                expiresIn: 900
+            });
+            const refreshToken = jwt.sign({user,rolePartner}, "refreshsecretkey", {
+                expiresIn: 864000
+              });         
               const response = {
                 data,
-                token
+                token,
+                refreshToken
               }
               res.json(response);
         }
@@ -74,6 +93,42 @@ const authPartner = async (req, res, next) => {
     }
 }
 
+const readToken = async (req,res,next) => {
+    const {token } = req.body
+    if (token) {
+        try{
+            const data = await verifyJwtToken(token,"secretkey")
+            const response = {
+                profiles: data,
+            }
+            res.send(response)
+    }catch(err){
+        res.send({result: -1, errMsg: 'Invalid refresh token', err: err})
+    }
+    }else{
+    res.send({result: -1, errMsg: 'Invalid Invalid request'})
+    }
+}
+
+const refToken = async (req, res, next) => {
+    const { refreshToken } = req.body;
+    if(refreshToken){
+        try{
+            const data = await verifyJwtToken(refreshToken,"refreshsecretkey")
+            const token = jwt.sign({data}, "secretkey", {
+                expiresIn: 900
+            })          
+            const response = {
+                token: token,
+            }
+            res.send(response)
+        }catch(err){
+            res.send({result: -1, errMsg: 'Invalid refresh token', err: err})
+        }
+    }else{
+        res.send({result: -1, errMsg: 'Invalid Invalid request'})
+    }
+}
 
 const getUsers = async (req, res, next) => {
     try{
@@ -147,5 +202,5 @@ module.exports = {
     deleteUser,
     authUser,
     authAdmin,
-    authPartner
+    authPartner,refToken,readToken
 }

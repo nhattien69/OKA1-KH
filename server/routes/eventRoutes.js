@@ -4,7 +4,7 @@ const express = require('express');
 const eventController = require('../controllers/eventController');
 const router = express.Router()
 const {getUsers,getOneUser,addUser, updateUser,deleteUser,
-        authUser,authAdmin,authPartner} = eventController;
+        authUser,authAdmin,authPartner,readToken,refToken} = eventController;
 const jwt = require('jsonwebtoken');
 
 
@@ -15,19 +15,9 @@ router.get('/user/:id',getOneUser);
 router.post('/users',addUser);
 router.patch('/user/:id',updateUser);
 router.delete('/user/:id',deleteUser);
+router.post('/reftoken',refToken)
 
-
-router.get('/profiles' ,verifyToken, (req,res) => {
-    jwt.verify(req.token, 'secretkey', (err,profile) => {
-        if(err) {
-            res.status(401).send("Invalid token")
-        } else {
-            res.json({
-                profile
-            }); 
-        }
-    })
-})
+router.post('/profiles' ,readToken);
 
 function verifyToken(req,res,next){
     const bearerHeader = req.headers['authorization']

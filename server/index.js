@@ -28,5 +28,5 @@ app.use('/api', eventRoutes.routes);
 
 
 
-const sql = require('mssql');
-app.listen(3001, () => console.log('is on http://localhost:' + config.port));
+const sql = require('mssql')
+app.listen(config.port, () => console.log('is on http://localhost:' + config.port));
