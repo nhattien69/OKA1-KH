@@ -154,6 +154,18 @@ const deleteUser = async (userId) => {
     }
 }
 
+const getPointUser = async (userId) => {
+    try{
+        let pool = await sql.connect(config.sql);
+        const sqlQueries = await utils.loadSqlQueries('events');
+        const pointUser = await pool.request()
+                        .input('userId',sql.NVarChar(50),userId)
+                        .query(sqlQueries.pointUser);
+        return pointUser.recordset;
+    }catch (error) {
+        return error.message;
+    }
+}
 
 module.exports = {
     getUsers,
@@ -165,5 +177,6 @@ module.exports = {
     authUser,
     authAdmin,
     authPartner,
-    getUser_Partner
+    getUser_Partner,
+    getPointUser
 }

@@ -4,7 +4,7 @@ const express = require('express');
 const eventController = require('../controllers/eventController');
 const router = express.Router()
 const {getUsers,getOneUser,addUser, updateUser,deleteUser,
-        authUser,authAdmin,authPartner,readToken,refToken} = eventController;
+        authUser,authAdmin,authPartner,readToken,refToken, getpointUser} = eventController;
 const jwt = require('jsonwebtoken');
 
 
@@ -16,7 +16,7 @@ router.post('/users',addUser);
 router.patch('/user/:id',updateUser);
 router.delete('/user/:id',deleteUser);
 router.post('/reftoken',refToken)
-
+router.get('/point',getpointUser)
 router.post('/profiles' ,readToken);
 
 function verifyToken(req,res,next){

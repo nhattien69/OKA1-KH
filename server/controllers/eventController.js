@@ -193,6 +193,19 @@ const deleteUser = async (req, res, next) => {
     }
 }
 
+//get point
+const getpointUser = async (req, res, next) => {
+    try{
+        const events = await eventData.getPointUser();
+        res.send({
+            Users: events
+        });
+        
+    }catch (error) {
+        res.status(400).send(error.message);
+    }
+}
+
 
 module.exports = {
     getUsers,
@@ -202,5 +215,6 @@ module.exports = {
     deleteUser,
     authUser,
     authAdmin,
-    authPartner,refToken,readToken
+    authPartner,refToken,readToken,
+    getpointUser
 }
