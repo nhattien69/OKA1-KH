@@ -5,6 +5,7 @@ SELECT
     pass,
     fristName,
     lastName,
+    phone,
     userAddress,
     cards
 
