@@ -132,6 +132,7 @@ const updateUser = async (userId,userData) => {
                         .input('pass', sql.NVarChar(50), userData.pass)
                         .input('fristName',sql.NVarChar(50),userData.fristName)
                         .input('lastName',sql.NVarChar(50),userData.lastName)
+                        .input('phone',sql.NVarChar(50),userData.phone)
                         .input('userAddress',sql.NVarChar(50),userData.userAddress)
                         .input('cards',sql.NVarChar(50),userData.cards)
                         .query(sqlQueries.updateUser)
