@@ -1,0 +1,29 @@
+.menu1{
+    
+    clear: left;
+    font-family: MuseoSans,sans-serif;
+    width: 940px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px 0 rgb(27 27 27 / 20%);
+}
+.Form1{
+    font-family: MuseoSans,sans-serif;
+}
+
+.layout{
+    border: 1px;
+
+}
+
+.site-layout{
+    background-color: white;
+}
+
+.btn-coll{
+    height: auto;
+    padding: 0px;
+    border: none;
+}
+.color-text{
+    color: black;
+}

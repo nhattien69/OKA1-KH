@@ -1,0 +1,36 @@
+.driver{
+    background-color: #f6f6f6;
+    padding: 12px;
+}
+
+.driver-ques{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    margin: 0;
+    display: block;
+    color: #434343;
+    letter-spacing: .3px;
+}
+
+.btn-find{
+    padding: 5px 15px;
+    background-color: #f96d01;
+    color: white;
+    width: 100px;
+    border:none;
+    font-size: 14px;   
+
+}
+
+.text-title{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    user-select: none;
+}
+.btn-search{
+    text-align: center;
+    margin-top: 20px;
+}

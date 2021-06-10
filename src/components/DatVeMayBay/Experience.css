@@ -1,0 +1,63 @@
+.main-layout{
+    height: fit-content;
+    overflow-x: hidden;
+    height: 100%;
+    max-height: 550px;
+}
+
+.search-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.text-1{
+    line-height: 24px;
+    font-weight: 500;
+    text-align: left;
+    font-size: 16px;
+}
+.text-2{
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.text-3{
+    color: rgb(143, 143, 143);
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text-4{
+    margin-top: 16px;
+    color: rgb(1, 148, 243);
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.img-layout{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;  
+    border-radius: 10px;
+}
+
+.img-layout-1{
+    width: 107px;
+    height: 107px;
+    object-fit: cover;  
+    border-radius: 10px;
+}
+.img-box{
+    padding: 12px;
+}
+
+.body-margin{
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.box-layout{
+    margin-top: 16px;
+}

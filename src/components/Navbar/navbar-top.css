@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+
+.navbar{
+    background-color: #fff;
+    color: #fff;
+}
+
+.sign-in{
+    font-weight: 700px;
+    
+}
+.icons{
+    color: brown;
+}
+
+
+.menu-1{
+   margin-left: 3%;
+   color:#696969;
+   
+}
+
+.log-in{
+    border-style: none;
+    font-family: MuseoSans,sans-serif;
+    color:#0770CD;
+    font-weight: 500;
+}
+
+.logo{
+    width: 135px; 
+    height: 43px;
+    margin-right: 200px;
+}
+
+#menu-items{
+    padding: 0 12px;
+    font-size: 16px;
+    margin-right: -20px;
+}
+
+.item-1{
+    margin-left: 200px;
+}
+
+.logo-items{
+    margin-right: 5px;
+}
+
+.sign-in{
+  background: #0770cd;
+  cursor: pointer;
+  width: 70px;
+  height: 55px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  transition: all 0.1s linear;
+  outline: none;
+  word-wrap: break-word;
+  
+  
+}
+.percent{
+    color: #ff6b00;
+    
+}
+.hand{
+    color: #30c5f7;
+    height: -40px;
+}
+.save{
+    color: #0770cd;
+    
+}
+.seat{
+    color:#0770cd;
+    
+}
+.p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.login1{
+    z-index: -1;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  background: #f6f6f6;
+  transition: all 0.1s linear;
+}
+.login1 :hover{
+    background: #fbfbfb;
+}
+.login{
+    margin: 0px 8px;
+  color: #1ba0e2;
+  
+}
+div {
+    display: block;
+}
+p {
+    color: black;
+   padding-top: 14px;
+}
+
+.double{
+    display: flex;
+}

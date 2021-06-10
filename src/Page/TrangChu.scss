@@ -1,0 +1,49 @@
+.trangchu{
+    
+        font-family: MuseoSans,sans-serif;
+        font-weight: 300;
+        color: #434343;
+        box-sizing: border-box;
+}
+#header-topbar{
+    height: 88px;
+}
+
+.header-menu{
+    background: #fff;
+    position: fixed;
+    width: 100%;
+}
+.header-menu-1{
+    border-top: 4px solid #1ba0e2;
+}
+
+.navbar-style{
+    padding-top :8px;
+    padding-bottom: 8px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .3px;
+    margin: 0 auto;
+}
+
+.navbar-fix{
+    padding-left: 24px;
+    padding-right: 24px;
+    min-width: 730px;
+    max-width: 1280px;
+    flex-wrap: nowrap;
+}
+
+.navbar-top{
+    display: flex;
+}
+
+.header-menu-2{
+    background: #f6f6f6;
+}
+
+.navbar-bot{
+    height: 36px;
+}

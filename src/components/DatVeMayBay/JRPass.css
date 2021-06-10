@@ -1,0 +1,19 @@
+.jrpass-title{
+    color: #434343;
+    font-size: 18px;
+    line-height: 24px;
+    white-space: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.text-jrpass{
+    margin-left: 12px;
+    vertical-align: 3px;
+    color: #696969;
+    font-size: 14px;
+    line-height: 20px;
+    
+    white-space: normal;
+    font-weight: 500;
+}

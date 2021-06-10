@@ -1,0 +1,460 @@
+.Page_TCN{
+    background-color: #e6eaed;
+
+    .Body_TCN{
+        width: 960px;
+        padding: 15px 0 150px 0;
+        margin: auto;
+        display: flex; 
+
+        // THANH PHẢI
+        &_Right{
+            margin-left: 20px;
+            width: 70%;
+
+            // BOX_NAME
+            .box_name{
+                background-color: rgb(255, 255, 255);
+                margin-bottom: 16px;
+                line-height: 32px;
+                padding: 12px;
+                border-radius: 5px;
+
+                // Title
+                &_title{
+                    display: flex;
+
+                    &_icon{
+                        font-size: 25px;
+                        padding-right: 5px;
+                        
+                    }
+                    #fix_layout{
+                        vertical-align: 2px;
+                    }
+                    #fix_layout-1{
+                        vertical-align: 1.5px;
+                    }
+                    #_userFullName{
+                        font-size: 22px;
+                        font-weight: 600;
+                        margin-right: 120px;
+                        
+                    }
+                    #editName, #editPass{
+                        color: #0770cd;
+                        font-size: 16px;
+                        font-weight: 600;
+                        background-color: #f6f6f6;
+                        border: none !important;
+                        padding: 8px 15px;
+                        line-height: 16px;
+                        border-radius: 3px;
+                        cursor: pointer;
+                    }
+                    #editName:hover, #editPass:hover{
+                        background-color: rgb(255, 255, 255);
+                    }
+                    #editName{
+                        margin-right: 15px;
+                    }
+                }
+
+                // Edit name
+                &_editName{
+                    &_boxName{
+                        display: flex;
+                        margin-bottom: 15px;
+                    }                    
+                    #txtFirstName, #txtLastName{
+                        width: 260px;
+                        padding: 0 13px;
+                        font-size: 13px;
+                        border: 1px solid rgb(221, 221, 221);
+                        border-radius: 2px;
+                        margin-left: 10px;
+                    }
+                    #txtLastName{
+                        margin-right: 40px;
+                    }
+                    &_lbnote{
+                        font-size: 12px;
+                        color: rgb(151, 151, 151);
+                    }
+                    #cancelEditName, #saveEditName{
+                        padding: 0 20px;                          
+                        font-size: 16px;
+                        font-weight: 600;                            
+                        border: none !important;
+                        padding: 8px 30px;
+                        line-height: 16px;
+                        border-radius: 3px;
+                        cursor: pointer;
+                    }
+                    #cancelEditName{
+                        margin-left: 440px;
+                        margin-right: 10px;
+                        color: #0770cd;
+                        background-color: #f6f6f6;
+                    }
+                    #cancelEditName:hover{
+                        background-color: rgb(255, 255, 255);
+                    }                 
+                    #saveEditName{
+                        color:#f6f6f6;
+                        background-color: #0770cd;
+                    }
+                    #saveEditName:hover{
+                        background-color: #3888cf;
+                    }
+                }
+
+                // Edit pass
+                &_editPass{
+                    #txtOldPass, #txtNewPass, #txtConfirmNewPass{
+                        width: 100%;
+                        padding: 0 13px;
+                        font-size: 13px;
+                        border: 1px solid rgb(221, 221, 221);
+                        border-radius: 2px;
+                    }
+                    &_lbnote{
+                        font-size: 12px;
+                        color: rgb(151, 151, 151)
+                    }
+                    #cancelEditPass, #saveEditPass{
+                        padding: 0 20px;                          
+                        font-size: 16px;
+                        font-weight: 600;                            
+                        border: none !important;
+                        padding: 8px 30px;
+                        line-height: 16px;
+                        border-radius: 3px;
+                        cursor: pointer;
+                    }
+                    #cancelEditPass{
+                        margin-left: 440px;
+                        margin-right: 10px;
+                        color: #0770cd;
+                        background-color: #f6f6f6;
+                    }
+                    #cancelEditPass:hover{
+                        background-color: rgb(255, 255, 255);
+                    }                 
+                    #saveEditPass{
+                        color:#f6f6f6;
+                        background-color: #0770cd;
+                    }
+                    #saveEditPass:hover{
+                        background-color: #3888cf;
+                    }
+                }
+            }
+
+            // BOX_ENABLE
+            .box_enable{
+                background-color: rgb(255, 255, 255);
+                padding: 12px;
+                margin-bottom: 16px;   
+                border-radius: 5px;
+
+                &_title{
+                    display: flex;
+                    font-size: 19px;
+                    font-weight: 600;
+
+                    &_icon{           
+                        padding-right: 10px;
+                    }
+                    #fix_layout{
+                        vertical-align: 2px;
+                    }
+                }
+
+                &_bottom{
+                    font-size: 17px;
+                    
+                    #checkBoxEnable{
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            // BOX_PHONE
+            .box_phone{
+                background-color: rgb(255, 255, 255);
+                padding: 12px;
+                margin-bottom: 16px;   
+                border-radius: 5px;
+
+                &_title{
+                    display: flex;
+                    font-size: 19px;
+                    font-weight: 600;
+
+                    &_icon{           
+                        padding-right: 10px;
+                    }
+                    #fix_layout{
+                        vertical-align: 2px;
+                    }
+                    #fix_layout-1{
+                        vertical-align: 1.5px;
+                    }
+
+                    #addNumberPhone{
+                        color: rgb(255, 255, 255);
+                        background-color: #0770cd;
+                        border: none !important;
+                        border-radius: 3px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        padding: 8px 14px;
+                        line-height: 16px;
+                        cursor: pointer;
+                        margin-left: 390px;
+                    }
+                }
+            }
+
+            // BOX_EMAIL
+            .box_email{
+                background-color: rgb(255, 255, 255);
+                padding: 12px;
+                margin-bottom: 16px;   
+                border-radius: 5px;
+
+                &_title{
+                    display: flex;
+                    font-size: 19px;
+                    font-weight: 600;
+
+                    &_icon{           
+                        padding-right: 10px;
+                    }
+                    #fix_layout{
+                        vertical-align: 2px;
+                    }
+                    #fix_layout-1{
+                        vertical-align: 1.5px;
+                    }
+
+                    #addNumberPhone{
+                        color: rgb(255, 255, 255);
+                        background-color: #0770cd;
+                        border: none !important;
+                        border-radius: 3px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        padding: 8px 14px;
+                        line-height: 16px;
+                        cursor: pointer;
+                        margin-left: 470px;
+                    }
+                }
+            }
+        }
+    }
+
+    // Xác nhận mật khẩu
+    .formConfirm{
+        display: none;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 140px; /* Location of the box */
+        padding-left: 560px;
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        
+        &_content{
+            width: 350px;
+            height: 250px;
+            background-color: #fefefe;
+            text-align: center;
+            border-radius: 3px;
+            padding: 20px;
+            
+            &_txtPass{
+                margin-bottom: 10px;
+        
+                #txtConfirmPass{        
+                    font-size: 13px;
+                    padding: 10px 13px;
+                    border: 1px solid rgb(221, 221, 221);
+                    border-radius: 2px;
+                }
+            }
+            &_btnSubmit{
+                margin-bottom: 3px;
+            }
+            #txtConfirmPass, #btnSubmit, #btnCancel{
+                width: 100%;
+            }
+            #btnSubmit, #btnCancel{
+                padding: 0 20px;                          
+                font-size: 16px;
+                font-weight: 600;                            
+                border: none !important;
+                padding: 8px 30px;
+                line-height: 16px;
+                border-radius: 3px;
+                cursor: pointer;
+            }             
+            #btnSubmit{
+                color:#f6f6f6;
+                background-color: #0770cd;
+            }
+            #btnSubmit:hover{
+                background-color: #3888cf;
+            }  
+            #btnCancel{
+                color: #0770cd;
+                background-color: #f6f6f6;
+            }
+            #btnCancel:hover{
+                background-color: rgb(255, 255, 255);
+            }        
+        }
+    }
+
+    // FORM NHẬP SỐ ĐIỆN THOẠI
+    .formAddNumberPhone{
+        display: none;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 140px; /* Location of the box */
+        padding-left: 560px;
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+        &_content{
+            width: 340px;
+            height: 200px;
+            background-color: #fefefe;
+            border-radius: 3px;
+            padding: 20px;
+
+            &_titleNP{
+                text-align: center;
+            }
+            &_lbNP{
+                margin-bottom: 2px;
+                font-size: 15px;
+            }
+        }
+
+        #txtNumberPhone{
+            width: 100%;
+            font-size: 15px;
+            padding: 5px 13px;
+            border: 1px solid rgb(221, 221, 221);
+            border-radius: 2px;
+        }
+        #txtNumberPhone::-webkit-outer-spin-button, #txtNumberPhone::-webkit-inner-spin-button{
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        #cancelAddNumberPhone, #saveNumberPhone{
+            margin-top: 10px;                          
+            font-size: 16px;
+            font-weight: 600;                            
+            border: none !important;
+            padding: 8px 30px;
+            line-height: 16px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        #saveNumberPhone{
+            color:#f6f6f6;
+            background-color: #0770cd;
+        }
+        #saveNumberPhone:hover{
+            background-color: #3888cf;
+        }  
+        #cancelAddNumberPhone{
+            margin-left: 110px;
+            margin-right: 10px;
+            color: #0770cd;
+            background-color: #f6f6f6;
+        }
+        #cancelAddNumberPhone:hover{
+            background-color: rgb(255, 255, 255);
+        }    
+    }
+
+    // FORM NHẬP EMAIL
+    .formAddEmail{
+        display: none;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 140px; /* Location of the box */
+        padding-left: 560px;
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+        &_content{
+            width: 340px;
+            height: 200px;
+            background-color: #fefefe;
+            border-radius: 3px;
+            padding: 20px;
+
+            &_titleEmail{
+                text-align: center;
+            }
+            &_lbEmail{
+                margin-bottom: 2px;
+                font-size: 15px;
+            }
+        }
+
+        #txtEmail{
+            width: 100%;
+            font-size: 15px;
+            padding: 5px 13px;
+            border: 1px solid rgb(221, 221, 221);
+            border-radius: 2px;
+        }
+        #cancelAddEmail, #saveEmail{
+            margin-top: 10px;                          
+            font-size: 16px;
+            font-weight: 600;                            
+            border: none !important;
+            padding: 8px 30px;
+            line-height: 16px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        #saveEmail{
+            color:#f6f6f6;
+            background-color: #0770cd;
+        }
+        #saveEmail:hover{
+            background-color: #3888cf;
+        }  
+        #cancelAddEmail{
+            margin-left: 110px;
+            margin-right: 10px;
+            color: #0770cd;
+            background-color: #f6f6f6;
+        }
+        #cancelAddEmail:hover{
+            background-color: rgb(255, 255, 255);
+        }    
+    }
+}

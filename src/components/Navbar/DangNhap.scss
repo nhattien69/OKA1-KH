@@ -1,0 +1,121 @@
+.formLogIn_content{
+    background-color:#fefefe;
+    border-radius: 20px;
+    box-shadow: 5px 7px 5px 7px #696969;
+    width: 450px;
+    height: 450px;
+    // border: 5px solid #0770cd;
+    padding: 50px;
+    margin: 20px;
+    // background-color: lightblue !important;
+    margin-left: 50%;
+    text-align: center;
+    
+    
+    .inputDN{
+        width: 80%;
+        margin-right: 10px;
+        height: 35px;
+        border: 1px solid rgb(205, 208, 209);
+        border-radius: 3px;
+        box-sizing: border-box;
+        outline: none;
+        color: black;
+        margin-top: 5px;
+    }
+    .inputPass{
+        width: 80%;
+        margin-right: 10px;
+        height: 35px;
+        border: 1px solid rgb(45, 67, 75);
+        border-radius: 3px;
+        box-sizing: border-box;
+        outline: none;
+        color: black;
+        margin-top: 5px;
+        
+    }
+    .labeldn{
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(105, 105, 105);
+    }
+    .labelmk{
+        
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(105, 105, 105);
+    }
+    
+    label{
+        color: darkblue;
+    }
+    button{
+        border: none;
+        color: white;
+        background-color: #ff8432;
+        padding: 5px 10px;
+        width: 40%;
+        margin-top: 5%;
+        font-weight: 700;
+        
+        // border-radius: 3px;
+    }
+    button:hover{color: rgb(255, 255, 255);
+        background-color: #0770cd;
+        
+    };
+    
+    input {
+        color: black;
+    }
+    .formLogIn_content_box{
+       
+       margin-left: 30%;
+       .formLogIn_content_boxSignUp_lb{
+           margin-bottom: 10px;
+       }
+    }
+
+    // #txtusername, #txtpassword{
+    //     font-size: 13px;
+    //     padding: 0px 13px;
+    //     border: 1px solid rgb(221, 221, 221);
+    //     border-radius: 2px;
+    //     width: 100%;
+    //     height: 40px;
+    // }
+
+    &_box{
+        margin: 20px 0 0 10px;
+        display: flex;
+
+        &BtnLogIn{
+            margin-right: 20px;
+
+            #btnSignUp{
+                border: none !important;
+                color: white;
+                background-color: #ff8432;
+                padding: 5px 10px;
+                border-radius: 3px;
+            }
+        }
+        &SignUp{
+            &_link{
+                color: rgb(32, 147, 255) !important;
+                font-weight: 700;
+            }
+            &_lb{
+                padding: 3px 0 0 0;
+                margin-bottom: 0;
+                line-height: 12px;
+            }
+        }
+    }
+}
+// .giaodien{
+//     background-image: url("https://phongvu.vn/cong-nghe/wp-content/uploads/2018/07/hinh-nen-full-hd-cho-laptop-1.jpg");
+    
+// }

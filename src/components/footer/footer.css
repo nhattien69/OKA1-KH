@@ -1,0 +1,35 @@
+.ft {
+    background-color:#1b1b1b ;
+    text-align: left;
+    min-height: 800px;
+    max-height: 1080px;
+}
+
+.title{
+    color: aliceblue;
+    font-size: 20;
+    text-align: left;
+}
+
+.link{
+    color: #9f9f9f;
+    font-size: 18;
+    line-height: 2.5;
+}
+
+.link:hover{
+    color:aliceblue ;
+    text-decoration: underline;
+}
+
+.text1{
+    color: #9f9f9f;
+    text-align: center;
+    font-size: 18;
+}
+
+.text2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 18;
+}

@@ -1,0 +1,203 @@
+.Page_TCN{
+    background-color: #e6eaed;
+
+    .Body_TCN{
+        width: 960px;
+        padding: 15px 0 150px 0;
+        margin: auto;
+        display: flex; 
+
+        &_Right{
+            margin-left: 20px;
+            width: 70%;
+
+            .imgmuavebay{
+                width: 100%;
+                height: 140px;
+                margin-bottom: 28px;
+            }
+            .button11 {
+                position: relative;
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                margin-bottom: 20px;
+                height: 40px;
+            }
+            .label11{
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: .3px;
+            }
+            .btn11{
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 8px 30px;
+                line-height: 16px;
+                background-color: #0770cd;
+                overflow: visible;
+                appearance: button;
+                user-select: none;
+                border: none;
+                color: #fff;
+                cursor: pointer;
+                font-size: 14px;
+                text-align: center;
+                border-radius: 3px;
+                transition: all .1s ease;
+                font-weight: 700;
+                -webkit-font-smoothing: antialiased;
+                
+                text-rendering: auto;
+                letter-spacing: normal;
+                word-spacing: normal;
+                text-transform: none;
+                text-indent: 0px;
+                text-shadow: none;
+                display: inline-block;
+                align-items: flex-start;
+                margin: 0em;
+                font: 400 13.3333px Arial;
+            }
+            
+            .icons11{
+                padding-right: 8px;
+                display: inline-block;
+                transition: all .1s ease;
+                vertical-align: middle;
+                color: white;
+                
+                
+            }
+            /* .noti{
+                background: rgb(244, 251, 254);
+                box-shadow: 0 1px 3px 0 rgb(27 27 27 / 10%);
+                display: block;
+                border-radius: 4px;
+                box-sizing: border-box;
+                position: relative;
+            
+            } */
+            
+            .kbY4M{
+                ine-height: 32px;
+                padding: 12px;
+                
+            }
+            
+            .nho{
+                background: rgb(119, 198, 238);
+                position: absolute;
+                width: 2px;
+                height: 24px;
+                top: 16px;
+                left: 0;
+            }
+            .text1{
+                display: inline-block;
+                vertical-align: middle;
+                width: 60%;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: .5px;
+                font-weight: 700;
+                padding: 0;
+                -webkit-font-smoothing: antialiased;
+                color: #434343;
+                font-family: MuseoSans,sans-serif;
+            }
+            h4 {
+                margin-block-start: 1.33em;
+                margin-block-end: 1.33em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+            }
+            .text2{
+                width: 35%;
+                line-height: 1.2;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .label{
+                cursor: pointer;
+                color: #0770cd;
+                text-decoration: none;
+                transition: all .3s ease;
+                font-weight: 700;
+                font-size: 14px;
+            }
+            .lowerlabel{
+                box-shadow: 0 1px 3px 0 rgb(27 27 27 / 10%);
+                display: table;
+                width: 100%;
+                box-sizing: border-box;
+                background: #fff;
+                border-radius: 4px;
+                position: relative;
+                margin-top: 20px;
+            }
+            .imgtrai{
+                display: table-cell;
+                padding: 16px 32px 24px;
+            }
+            .sleepimg{
+                min-width: 100px;
+                max-height: 100px;
+            }
+            
+            .labelphai{
+                display: table-cell;
+                vertical-align: middle;
+                padding: 24px 24px 24px 0;
+            }
+            .us{
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: .5px;
+                font-weight: 700;
+                padding: 0;
+                -webkit-font-smoothing: antialiased;
+            }
+            .spanlabel{
+                font-family: MuseoSans,sans-serif;
+                color: inherit;
+                font-size: inherit;
+                line-height: 24px;
+                white-space: normal;
+                font-weight: 500;
+                -webkit-font-smoothing: antialiased;
+            }
+            .lastlabel{
+                cursor: pointer;
+                color: #0770cd;
+                text-decoration: none;
+                transition: all .3s ease;
+            }
+            .lastword{
+                background: rgb(244, 251, 254);
+                box-shadow: 0 1px 3px 0 rgb(27 27 27 / 10%);
+                cursor: pointer;
+                margin-top: 20px;
+                width: 100%;
+                display: block!important;
+                margin-bottom: 16px;
+                border-radius: 4px;
+                box-sizing: border-box;
+                position: relative;
+            }
+            .chucaicuoi{
+                padding: 16px;
+            }
+            .kytu{
+                color: #434343;
+                font-size: 14px;
+                line-height: 20px;
+                white-space: normal;
+                font-weight: 500;
+                -webkit-font-smoothing: antialiased;
+            }
+        }
+    }
+}

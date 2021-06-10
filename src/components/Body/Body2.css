@@ -1,0 +1,250 @@
+.App{
+  background-color: white;
+  
+}
+.LowerBody {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.LowerBody .container_app {
+  width: 80%;
+}
+
+.Title-Pay{
+  
+  text-align: left;
+  margin: 24px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: .3px;
+  color: #1b1b1b;
+}
+.Pay-Info{
+  color:#606060;
+  font-size:15px ;
+  line-height: 24px;
+  white-space: normal;
+  font-weight: 500;
+   display: block; 
+}
+
+.Title-Bank{
+  text-align: left;
+  margin: 24px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: .3px;
+  color: #1b1b1b;
+  
+}
+.Bank-Info{
+  color:#606060;
+  font-size:15px ;
+  line-height: 24px;
+  white-space: normal;
+  font-weight: 500;
+   display: block; 
+}
+.Bank-defaul{
+  color: inherit;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.Title-Air{
+  text-align: left;
+  margin: 24px 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: .3px;
+  color: #1b1b1b;
+}
+.Air-Info{
+  font-size: 15px;
+  color:#606060;
+  line-height: 24px;
+  letter-spacing: .3px;
+}
+.Air-defaul{
+  color: inherit;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* PAY */
+.wrap-pay {
+  display: flex;
+  width: 100%;
+  padding: 90px;
+}
+.wrap-pay .content-pay {
+  width: 40%;
+  margin : 55px;
+  padding: 55px;
+}
+.wrap-list-pay {
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.img-pay{
+  margin: 15px;
+  
+  
+}
+
+/*Air*/
+.wrap-air {
+  display: flex;
+  width: 100%;
+  padding: 90px;
+}
+.wrap-air .content-air {
+  width: 40%;
+  margin : 55px;
+  padding: 55px;
+}
+.wrap-list-air {
+  width: 48%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-air{
+  margin: 15px;
+  
+}
+
+/*Bank*/
+.wrap-bank {
+  display: flex;
+  width: 100%;
+  padding: 90px;
+}
+.wrap-bank .content-bank {
+  width: 40%;
+  margin : 55px;
+  padding: 55px;
+}
+.wrap-list-bank {
+  width: 48%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-bank{
+  margin: 5px;;
+}
+/*Tai sao nen dat cho voi OKA*/
+.wrap_content{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+  margin: 20px 0;
+
+  width: 50%;
+  margin: 0 auto;
+}
+.wrap_img_content{
+  margin-top: 50px;
+
+}
+
+.Title-datcho{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 24px;
+   font-weight: 500;
+   line-height: 24px;
+   letter-spacing: .3px;
+   color: #1b1b1b;
+}
+.content-question {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+.content {
+ 
+  padding-left: 0;
+  font-size: 20px;
+    line-height: 24px;
+    letter-spacing: .3px;
+    font-weight: 700;
+}
+
+.wrap_img_content {
+  display: flex;
+  align-items: center;
+}
+.img_payment {
+  text-align: right;
+  
+}
+
+/*TAB*/
+.App-header{
+  text-align: left;
+  flex-direction: column;
+  width: 960px;
+    
+  margin: 56px auto;
+  display: flex;
+}
+
+.homepageSEOTab{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.Title-khampha{
+  text-align: center;
+ margin-top: 100px;
+ font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: .3px;
+  color: #1b1b1b;
+}
+.wrap_item_linl_anchor {
+  width: 100%;
+  display: flex;
+  opacity: 1;
+  line-height: 35px ;
+  
+           
+           
+  /* flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; */
+  
+}
+.wrap_item_linl_anchor  li{
+  width: 33%;
+  display: inline-block;
+ 
+    
+
+}
+.wrap_item_linl_anchor li .wrapperAnchorLink {
+  padding-right: 24px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* .App .container_app h2{
+  text-align: center;
+} */

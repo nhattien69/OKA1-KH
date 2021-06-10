@@ -1,0 +1,23 @@
+#menu{
+    width: 500px;
+}
+#dropdown{
+    width: 500px;
+}
+#menu1{
+    width: 500px;
+}
+
+
+.bground{
+    background-color: #f6f6f6 ;
+}
+
+.color-hotel{
+    display: inline-block;
+    margin-left: 8px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #0770cd;
+    font-weight: 700;
+}

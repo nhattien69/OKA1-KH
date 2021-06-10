@@ -1,0 +1,147 @@
+.Page_TCN{
+    background-color: #e6eaed;
+
+    .Body_TCN{
+        width: 960px;
+        padding: 15px 0 150px 0;
+        margin: auto;
+        display: flex; 
+
+        &_Right{
+            margin-left: 20px;
+            width: 70%;
+
+            .point{
+                width: 100%;
+                display: flex;
+            
+                &__container {
+                    margin: 0 auto;
+                    width: 100%;
+                    max-width: 700px;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0 30px 30px 30px;
+            
+                    .title-point{
+                        margin: 0 12px 15px;
+                        display: flex;
+                         justify-content: space-between;
+                       
+                         h1{
+                             color: black;
+                        
+                             font-weight: inherit;
+                         }
+                         a{
+                             font-size: 15px;
+                             margin-left: 8px;
+                             
+                         }
+                     }
+                    .diemthuong{
+                         border-radius: 4px;
+                       
+                        &__container {
+                            display: flex;
+            
+                            .form-point{
+                                width: 35%;
+                                background-color: #1BA0E2;
+                                display: inline-block;
+                                text-align: left;
+                                text-transform: uppercase;
+                                letter-spacing: .5px;
+                                font-weight: 700;
+                                font-size: 12px;
+                                cursor: pointer;
+                                color: white;
+                                padding: 16px;
+                                
+                                .availability-points{
+                                
+                                    margin-top: 30px;
+                                }
+                                .number-point{
+                                    font-size: 35px;
+                                    margin-top: 10px;
+                                }
+                                .value-point{
+                                    font-weight: normal;
+                                
+                                }
+                                .pending-point{
+                                
+                                    margin-top: 32px;
+                                opacity: 0.5;
+                                text-transform: capitalize;
+                                font-size: 14px;
+                                
+                                }
+                            }
+                            .form-process{
+                                width: 65%;
+                                display: inline-block;
+                                text-align: right;
+                                text-transform: uppercase;
+                                letter-spacing: .5px;
+                                font-weight: 700;
+                                font-size: 12px;
+                                cursor: pointer;
+                                background-color: #fff;
+                                padding: 16px;
+                            
+                                .form-process-point{
+                                justify-content: space-between;
+                                display: flex;
+                                }
+                                .process-point{
+                                    color: #BEBEBE;
+                                
+                                }
+                                .detail-point{
+                                    columns:#800000;
+                                    text-transform: capitalize;
+                                }
+                    
+                                .number-process{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+            
+                                    margin: 24px 0;
+                                    .item-process {
+                                        display: flex;
+                                        flex-direction: column;
+                                        .wrap_icon {
+            
+                                            padding: 16px;
+                                            border-radius: 50%;
+                                            border: 4px solid #d2ecfa;
+                                            margin: 0 4px 8px;
+                                            img {
+                                                width: 24px;
+                                                height: 24px;
+                                            }
+                                        }
+                                        label {
+                                            text-transform: capitalize;
+                                            color: #BEBEBE;
+                                        }            
+                                    }
+                                }
+                            }
+                        }                       
+                    }
+                     .tap-point{
+                         .wrap_item_point{
+                             width: 70%;
+                              display: flex;
+                         }
+                     }
+                    
+                } 
+            }
+        }
+    }
+}

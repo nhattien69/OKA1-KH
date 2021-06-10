@@ -1,0 +1,50 @@
+.Body{
+    box-sizing: border-box;
+    color: #434343;
+    font-weight: 300;
+    background-color: #e6eaed;
+}
+
+.Body_DCCT{
+    width: 960px;
+    min-height: 720px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    padding: 30px 0;
+
+    &_Right{
+        padding-left: 8px;
+        padding-right: 8px;
+        width: 66.6667%;
+
+        //Tất cả các sản phẩm
+        .box_tccsp{
+            display: flex;
+            padding-left: 16px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 'rgb(3 18 26 / 20%) 0px 1px 2px';
+            padding: 12px 0 12px 16px;
+            border-radius: 6px;
+
+            .box_txt{
+                margin: 0 24px;
+                flex: 1 1 0%;
+                text-align: left;
+                line-height: 20px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                letter-spacing: .3px;
+
+                h3{
+                    margin: 12px 0;
+                }
+                div{
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

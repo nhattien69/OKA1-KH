@@ -1,0 +1,352 @@
+.tvoka{
+    text-align: center;
+    padding: 56px 0;
+    width: 960px;
+    margin: auto;
+}
+
+.txt1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .3px;
+}
+
+.div1{
+    color: #8f8f8f;
+    margin: 8px 0 24px;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+.a1{
+    display: inline-block;
+    position: relative;
+    padding: 4px 12px;
+    color: black;
+    text-decoration: none !important;
+}
+
+.img1{
+    padding-right: 4px;
+}
+
+.span1{
+    vertical-align: middle;
+    color:#434343;
+    vertical-align: middle;
+}
+
+.span1, .div1{
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.div2{
+    padding: 56px 0;
+    width: 960px;
+    margin: auto;
+    display: flex;
+
+    border-bottom: 2px solid #dadada;
+}
+
+.a2{
+    display: inline-block;
+    text-decoration: none !important;
+    margin: 12px;
+}
+
+.a2:not(:first-child){
+    margin-left: 0;
+}
+
+.divImg{
+    display: flex;
+}
+
+.span2{
+    color: #434343;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.span3{
+    color: #8f8f8f;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.span2, .span3{
+    text-align: left;
+}
+
+.divText{
+    text-align: left;
+    width: 33.33333%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.txt2{
+    margin: 24px 0;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .3px;
+}
+
+.span4{
+    line-height: 24px;
+    font-weight: 500;
+    color: #6b6565;
+}
+
+.img2{
+    box-shadow: 0 1px 3px 0 rgb(27 27 27 / 10%);
+    width: 100%;
+    overflow: hidden;
+    color: initial;
+    background: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+}
+
+/* // hr{
+//     // padding: 56px 0;
+//     width: 960px;
+// } */
+
+.div3{
+    text-align: center;
+    padding: 56px 0;
+    width: 960px;
+    margin: auto;
+
+    
+}
+
+.div3_1{
+    display: flex;
+    flex: 1;
+}
+
+.div3_2{
+    text-align: center;
+}
+
+.a5{
+    text-decoration: none !important;
+    transition: all .3s ease;
+}
+
+.div4{
+    text-align: center;
+    margin: auto;
+    padding: 56px 0;
+    width: 960px;
+}
+
+.txt3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .3px;
+
+    margin: 24px 0;
+}
+
+.div4_1{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.a3{
+    padding: 0 24px;
+}
+
+.div5{
+    width: 960px;
+    margin: auto;
+}
+
+.div5_1{
+    text-align: center;
+    padding: 56px 0;
+}
+
+.txt4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .3px;
+
+    margin: 24px 0;
+}
+
+.div5_11{
+
+
+    display: flex;
+}
+
+.div5_111{
+    width: 25%;
+
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.a4{
+    display: block;
+    height: 316px;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(27 27 27 / 20%);
+    box-shadow: 0 2px 4px 0 rgb(27 27 27 / 20%);
+    border-radius: 4px;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+}
+
+.a4:active:hover::before, .a4::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(35,42,49,.65);
+    top: 0;
+    left: 0;
+}
+
+.div5_1111{
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    line-height: 24px;   
+}
+
+.txt5{
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    padding: 16px;
+
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+
+
+.wrap_khuyenmai{
+    text-align: center;
+    flex-direction: column;
+    width: 960px;
+  
+    margin: 56px auto;
+    display: flex;
+
+    
+}
+.title-khuyenmai{
+    display: flex;
+   
+}
+.khuyenmai-yeuthich{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: .3px;
+    margin-right: 45px;
+    color: #434343;
+}
+
+.detail-khuyenmai{
+    display: flex;
+    margin-right: 100px;
+   
+}
+.all-khuyenmai{
+    font-size: 20px;
+    color: rgb(7, 112, 205);
+    user-select: none;
+    margin-right: 20px;
+    opacity: 1;
+}
+.icon-maybay{
+    width: 24px;
+    height: 30px;
+    margin-right: 20px;
+    opacity: .3;
+    cursor: pointer;
+}
+.icon-house{
+    width: 24px;
+    height: 30px;
+    opacity: .3;
+    cursor: pointer;
+}
+.khuyenmai-xemthem{
+    display: flex;
+    margin-left: 158px;
+}
+.see-more{
+    color: rgb(7, 112, 205);
+   font-size: 18px;
+   font-weight: normal;
+   margin-right: 10px;
+}
+.icon-see-more{
+  
+    height: 30px;
+    stroke: currentcolor;
+    stroke-linecap: round;
+    width: 18px;
+    stroke-width: 1.5;
+    
+}
+.wrap_pic_khuyenmai{
+   
+    display: flex;
+    flex-direction: column;
+  
+}
+.gird-container-khuyenmai{
+    text-align: center;
+    width: 960px;
+  
+   
+    display: flex;
+    flex-direction: column;
+    /* margin: 40px auto; */
+   position: relative;
+   box-sizing: border-box;
+  
+}
+
+.content-khuyenmai{
+   
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . ."
+    ". . ." 
+   
+}
+
+
+.pic-khuyenmai{
+    
+    border-radius: 5px; 
+    margin-right: 20px;
+   
+}

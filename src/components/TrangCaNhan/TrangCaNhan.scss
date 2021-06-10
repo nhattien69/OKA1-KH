@@ -1,0 +1,31 @@
+// THANH TRÁI
+.Body_TCN_Left{
+    padding: 10px 0;
+    width: 280px;
+    height: 390px;
+    border: 1px solid rgb(247, 247, 247);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+
+    a{
+        display: flex;
+        color: #696969;
+        font-size: 17px;
+        align-items: center;
+        line-height: 24px;
+        padding: 8px;
+        font-family: MuseoSans,sans-serif;
+    }
+    .active ,a:hover{
+        color: #696969;
+        background-color: rgb(243, 243, 243);
+        text-decoration: none !important;
+    }
+    a:focus{
+        color: white;
+        background-color: #0770cd !important;
+    }
+    .txt_item{
+        padding-left: 10px;
+    }
+}

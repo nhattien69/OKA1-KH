@@ -1,0 +1,529 @@
+.content-lienhe{
+    display: flex;
+    justify-content: space-between;
+    .contact{
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+
+        .banner-contact{
+            padding: 15px;
+            text-align: center;
+      
+            background-image: linear-gradient(#1BA0E2,#007CE8);
+        
+            .title-contact{
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 40px;
+            }
+            .title-note{
+                color: white;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 16px;
+            }
+
+       
+        }
+
+        // .news-khuyenmai{
+        //     position: absolute;
+        //     bottom: 0;
+        //     width: 100%;
+        //         .banner-khuyenmai{
+        //             padding: 15px;
+        //             background-image: linear-gradient(#1BA0E2,#007CE8);
+        //             .title-khuyenmai{
+        //                 color: white;
+        //             }
+        //         }
+        //     }
+        // }
+
+        .tab-contact{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .wrap_item_contact{
+        
+            display: flex;
+            align-items: flex-start;
+
+            color: rgb(1, 148, 243);
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            width: 40%;
+        .wrap_form_input {
+            display: flex;
+            flex-direction: column;
+            padding: 0 24px;
+            .hotro{
+                margin-top: 10px;
+                background-color: white;
+                height: auto;
+                padding:15px;
+                border-radius: 10px;
+                border: 1px solid #d2ecfa;
+                h1{
+                    color: rgb(3, 18, 26);
+                    line-height: 20px;
+                    line-height: 20px;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+                
+                .title-datcho{
+                    display: flex;
+                
+                    
+                    .datcho{
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 20px;
+                        margin-top: 16px;
+                    
+                        
+                    }
+    
+                    h4{
+                        line-height: 16px;
+                        font-size: 14px;
+                        text-align: left;
+                        font-weight: 700;
+                        
+                    }
+                
+                }
+                .condition-text{
+                    margin-top: 16px;
+    
+                    
+                    .text-datcho{
+                        width: 100%;
+                        height: 40px;
+                    
+                        border: 1px solid rgb(205, 208, 209);
+                        border-radius: 8px;
+                        box-sizing: border-box;
+                        outline: none;
+                        color: black;
+                        -webkit-transition: 0.1s;
+                        transition: 0.1s;
+                        &:focus {
+                            border: 2px solid #1BA0E2;
+                        }    
+                    }
+                
+                }
+                .product{
+                    margin-top: 16px;
+                    h4{
+                        line-height: 16px;
+                        font-size: 14px;
+                        text-align: left;
+                        font-weight: 700;
+                    
+                    }
+                    
+                }
+                .my-info{
+                    .info-name{
+                        margin-top: 16px;
+                        h4{
+                            line-height: 16px;
+                            font-size: 14px;
+                            text-align: left;
+                            font-weight: 700;
+                        }
+                        .text-ten{
+                            width: 100%;
+                            height: 40px;
+                        
+                            border: 1px solid rgb(205, 208, 209);
+                            border-radius: 8px;
+                            box-sizing: border-box;
+                            outline: none;
+                            color: black;
+                            -webkit-transition: 0.1s;
+                            transition: 0.1s;
+                            &:focus {
+                                border: 2px solid #1BA0E2;
+                            }    
+                        }
+                    }
+                    .info-email{
+                        margin-top: 16px;
+                        h4{
+                            line-height: 16px;
+                            font-size: 14px;
+                            text-align: left;
+                            font-weight: 700;
+                        }
+                        .email{
+                            width: 100%;
+                            height: 40px;
+                        
+                            border: 1px solid rgb(205, 208, 209);
+                            border-radius: 8px;
+                            box-sizing: border-box;
+                            outline: none;
+                            color: black;
+                            -webkit-transition: 0.1s;
+                            transition: 0.1s;
+                            &:focus {
+                                border: 2px solid #1BA0E2;
+                            }    
+                        }
+                    }
+                    .info-feelings{
+                        margin-top: 16px;
+                        h4{
+                            line-height: 16px;
+                            font-size: 14px;
+                            text-align: left;
+                            font-weight: 700;
+                        }
+                        .text-fellings{
+                            width: 100%;
+                            height: 120px;
+                        
+                            border: 1px solid rgb(205, 208, 209);
+                            border-radius: 8px;
+                            box-sizing: border-box;
+                            outline: none;
+                            color: black;
+                            -webkit-transition: 0.1s;
+                            transition: 0.1s;
+                            &:focus {
+                                border: 2px solid #1BA0E2;
+                            }    
+                        }
+                        .detail-feelings{
+                            line-height: 20px;
+                            font-size: 14px;
+                            text-align: left;
+                            font-weight: 500;
+                            color:rgb(104, 113, 118);
+                        
+                        }
+                    }
+                
+                }
+                .btn-upload{
+                    text-align: center;
+                
+                }
+                .send{
+                    width: 100%;
+                    height: 40px;
+                    margin-top: 10px;
+                    border: 1px solid rgb(205, 208, 209);
+                    border-radius: 8px;
+                    box-sizing: border-box;
+                    outline: none;
+                    
+                    -webkit-transition: 0.1s;
+                    transition: 0.1s;
+    
+                    color: rgb(3, 18, 26);
+                    line-height: 20px;
+                    line-height: 20px;
+                    font-weight: 700;
+                    font-size: 16px;
+                        
+                }
+                
+            
+            }
+            .other-channel{
+                margin-top: 16px;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                word-break: break-all;
+                background-color: white;
+                height: auto;
+                padding:15px;
+                border-radius: 10px;
+                border: 1px solid #d2ecfa;
+    
+                .title-channel{
+                    color: rgba(104,113,118,1.00);
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 700;
+                }
+                .provide code{
+                    margin-top: 16px;
+                    line-height: 20px;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+    
+                .tongdai{
+                    
+                    margin-top: 16px;
+                    .info-tondai{
+                        display: flex;
+                        align-items: center;
+                    
+                        .icon-tongdai{
+                            width: 24px;
+                            display: flex;
+                        align-items: center;
+                            height: 24px;
+                        }
+                        .tongdai-support{
+                            color: rgba(3,18,26,1.00);
+                            line-height: 24px;
+                            font-weight: 500;
+                            font-size: 16px;
+                            padding:8px;
+                            display: flex;
+                            align-items: center;
+                        }
+                        .icon-step{
+                            width: 24px;
+                        
+                            height: 24px;
+                        }
+                    
+                    }
+                    
+                    .tongdai-cuocphi{
+                        color: rgba(104,113,118,1.00);
+                        line-height: 16px;
+                        font-weight: 500;
+                        font-size: 12px;
+                    
+                    
+                    }
+                }
+            }
+        }
+        
+        .wrap_item_doitac{
+            display: flex;
+            flex-direction: column;
+            padding: 0 24px;
+            
+          
+            .tuyendung{
+                margin-top: 10px;
+                background-color: white;
+                height: auto;
+                padding:15px;
+                border-radius: 10px;
+                border: 1px solid #d2ecfa;
+                width: 100%;
+               
+                .item-tuyendung{
+                    display: flex;
+                
+                    .icon-tuyendung{
+                        width: 24px;
+                        height: 24px;
+                       margin-right: 15px;
+                    }
+                    .title-tuyendung{
+                        color: rgb(104, 113, 118);
+                        font-size: 20px;
+                        line-height: 24px;
+                        font-weight: 700;
+                    }
+                   
+                   
+                }
+                .note-tuyendung{
+                    .note-find-job{
+                           
+                        color: rgb(3, 18, 26);
+                        line-height: 24px;
+                        font-weight: 500;
+                        font-size: 16px;
+                        
+                    }
+                }
+            }
+            .truyenthong{
+                margin-top: 10px;
+                background-color: white;
+                height: auto;
+                padding:15px;
+                border-radius: 10px;
+                border: 1px solid #d2ecfa;
+                width: 100%;
+                padding-bottom: 12px;
+                .item-truyenthong{
+                    display: flex;
+                   
+                }
+                .icon-truyenthong{
+                    width: 24px;
+                    height: 24px;
+                   margin-right: 15px;
+                }
+                .title-truyenthong{
+                    color: rgb(104, 113, 118);
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 700;
+                }
+                
+            }
+            .note-truyenthong{
+                .note-media{
+                    color: rgb(3, 18, 26);
+                    line-height: 24px;
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+
+            .doitac{
+                margin-top: 10px;
+                background-color: white;
+                height: auto;
+                padding:15px;
+                border-radius: 10px;
+                border: 1px solid #d2ecfa;
+                width: 100%;
+                padding-bottom: 12px;
+                .item-doitac{
+                    display: flex;
+                }
+                .icon-doitac{
+                    width: 24px;
+                    height: 24px;
+                   margin-right: 15px;
+                }
+                .title-doitac{
+                    color: rgb(104, 113, 118);
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 700;
+                }
+            }
+            .note-doitac{
+                color: rgb(3, 18, 26);
+                line-height: 24px;
+                font-weight: 500;
+                font-size: 16px;
+                
+            }
+
+            .taitro{
+                margin-top: 10px;
+                background-color: white;
+                height: auto;
+                padding:15px;
+                border-radius: 10px;
+                border: 1px solid #d2ecfa;
+                width: 100%;
+                padding-bottom: 12px;
+                .item-taitro{
+                    display: flex;
+                }
+                .icon-taitro{
+                    width: 24px;
+                    height: 24px;
+                   margin-right: 15px;
+                }
+                .title-taitro{
+                    color: rgb(104, 113, 118);
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 700;
+                }
+            }
+            .note-taitro{
+                color: rgb(3, 18, 26);
+                line-height: 24px;
+                font-weight: 500;
+                font-size: 16px;
+                
+            }
+
+            .quangcao{
+                margin-top: 10px;
+                background-color: white;
+                height: auto;
+                padding:15px;
+                border-radius: 10px;
+                border: 1px solid #d2ecfa;
+                width: 100%;
+                padding-bottom: 12px;
+                .item-quangcao{
+                    display: flex;
+                }
+                .icon-quangcao{
+                    width: 24px;
+                    height: 24px;
+                   margin-right: 15px;
+                }
+                .title-quangcao{
+                    color: rgb(104, 113, 118);
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 700;
+                }
+            }
+            .note-quangcao{
+                color: rgb(3, 18, 26);
+                line-height: 24px;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+
+   
+    .ant-tabs-nav {
+        justify-content: center;
+        &-wrap {
+            flex: unset !important;
+        }
+
+       
+    }
+   
+
+
+    .note-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .pic-contact{
+            width: 240px;
+            height: 100%;
+            margin-top: 24px;
+            
+            object-position: 50% 50%;
+        }
+        .note-support{
+            color: rgb(104, 113, 118);
+            margin-top: 16px;
+            text-align: center;
+            line-height: 20px;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        
+    }
+   
+   
+   
+        }
+    }    
+}    

@@ -1,0 +1,17 @@
+.color-text{
+    color: black;
+}
+
+.btn-search{
+    background-color: #f96d01;
+    width: 350px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    
+    border-radius: 5px solid ;
+}
+
+.search{
+    text-align: center;
+}

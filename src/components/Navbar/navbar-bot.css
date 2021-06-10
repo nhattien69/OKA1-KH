@@ -1,0 +1,26 @@
+.menu-2{
+    color:#696969   ;   
+    background-color: #F6F6F6;
+    margin: auto;
+   padding: 0px 80px;
+   font-size: 14px;
+   display: flex;
+   text-align: center;
+   min-width: 730px;
+   max-width: 1280px;
+   
+   
+}
+
+ #menu-1{
+     margin-right: 30px;
+     
+ }
+
+ .bg{
+    background-color: #F6F6F6;
+    width: auto;
+    
+ }
+ 
+
