@@ -1,10 +1,12 @@
 insert into [dbo].[Users]
 (
     [email],
-    [pass]
+    [pass],
+    [dateCreate]
 )
 values (
     @email,
-    @pass
+    @pass,
+    CAST( GETDATE() AS Date )
 )
 SELECT SCOPE_IDENTITY() as userId

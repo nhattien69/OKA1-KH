@@ -1,7 +1,7 @@
 const configSQL = {
-    user: 'DuyBao',
-    password: 'DuyBao123',
-    server: 'localhost', 
+    user: 'oka1kh',
+    password: 'Nhattien69999',
+    server: 'oka1kh.database.windows.net', 
     database: 'PROFILE_DB',
-    port: 1435
+    port: 1433
 };

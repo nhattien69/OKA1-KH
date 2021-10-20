@@ -16,12 +16,18 @@ module.exports = {
     host: HOST,
     url: HOST_URL,
     sql: {
-        server: "localhost",
-        database: SQL_DATABASE,
-        user: SQL_USER,
-        password: SQL_PASSWORD,
-        options:{
-            encrypt: sqlEncrypt,
+        server: 'oka1kh.database.windows.net',  //update me
+        authentication: {
+            type: 'default',
+            options: {
+                userName: 'oka1kh', //update me
+                password: 'Nhattien69999'  //update me
+        }
+        },
+        options: {
+        // If you are on Microsoft Azure, you need encryption:
+            encrypt: true,
+            database: 'PROFILE_DB',  //update me
             enableArithAbort: true,
             cryptoCredentialsDetails: {
                 minVersion: 'TLSv1'

@@ -1,10 +1,8 @@
 update [dbo].[Users]
 set 
-    [fristName]=@fristName,
-    [lastName]=@lastName
+    [phone] = @phone
 where [userId]=@userId
 
-
-SELECT [email],[fristName],lastName
+SELECT [email],[phone]
 from [dbo].[Users]
 where [userId]=@userId
